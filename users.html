@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Banking System</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Ubuntu:wght@300&display=swap"
+      rel="stylesheet"
+    />
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/639af5b414.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  </head>
+
+  <body style="background-image: url(sudhanshoo3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; color: black;">
+
+    <section id="users">
+      <div class="one">
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-image: url('./sudhanshoo2.jpg');">
+          <div class="company">
+
+          <a href="index.html" style="text-decoration: none;"><h2 style="font-weight: bolder;">SHELBY <span style="color: orange;">BANKS</span> </h2></a>
+          </div>
+        </nav>
+        <nav class="navbar bg-dark navbar-expand-lg navbar-dark" style="background-image: url('./sudhanshoo2.jpg')";>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+
+              <li class="nav-item" >
+                <div class="dropdown">
+                  <button
+                    class="btn btn-secondary dropdown-toggle nav-link"
+                    type="button"
+                    id="dropdownMenuButton"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                    style="
+                    background: transparent;
+                    color: orange"
+                  >
+                    Transaction History
+                  </button>
+                  <div
+                    id="updateHistory"
+                    class="dropdown-menu"
+                    aria-labelledby="dropdownMenuButton"
+                  ></div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </section>
+<br><br>
+    <button class="transferbtn" data-aos="zoom-in" data-aos="fade-zoom-in"
+     data-aos-easing="ease-in-back" data-aos-delay="300">Transfer</button>
+    <br>
+    <br>
+    <table class="table" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="linear">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">NAME</th>
+          <th scope="col">EMAIL</th>
+          <th scope="col">CITY</th>
+          <th scope="col">BALANCE</th>
+          <th scope="col">UNIQUE ID</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Arthur Shelby</td>
+          <td>Arthur@gmail.com</td>
+          <td>London</td>
+          <td id="7071">75000</td>
+          <td>7071 </td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>John Shelby</td>
+          <td>ShelJohn@gmail.com</td>
+          <td>Chelsea</td>
+          <td id="7072">50000</td>
+          <td>7072 </td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>Polly Gray</td>
+          <td>auntpolly@gmail.com</td>
+          <td>London</td>
+          <td id="7073">65000</td>
+          <td>7073 </td>
+        </tr>
+        <tr>
+          <th scope="row">4</th>
+          <td>Grace Burgess</td>
+          <td>QueenGrace@yahoo.com</td>
+          <td>Sydney</td>
+          <td id="7074">89000</td>
+          <td>7074 </td>
+        </tr>
+        <tr>
+          <th scope="row">5</th>
+          <td>Alfie Solomon</td>
+          <td>FunnyAlfie@gmail.com</td>
+          <td>New York</td>
+          <td id="7075">80000</td>
+          <td>7075 </td>
+        </tr>
+        <tr>
+          <th scope="row">6</th>
+          <td>Michael Gray</td>
+          <td>rebelmichael@gmail.com</td>
+          <td>Manchester</td>
+          <td id="7076">71000</td>
+          <td>7076 </td>
+        </tr>
+        <tr>
+          <th scope="row">7</th>
+          <td>Ada Shelby</td>
+          <td>sistershelby@gmail.com</td>
+          <td>Chelsea</td>
+          <td id="7077">45000</td>
+          <td>7077 </td>
+        </tr>
+        <tr>
+          <th scope="row">8</th>
+          <td>Lizzie Shelby</td>
+          <td>luckylizzie@gmail.com</td>
+          <td>London</td>
+          <td id="7078">44000</td>
+          <td>7078 </td>
+        </tr>
+        <tr>
+          <th scope="row">9</th>
+          <td>Linda Shelby</td>
+          <td>saintLinda@gmail.com</td>
+          <td>Manchester</td>
+          <td id="7080">22000</td>
+          <td>7080 </td>
+        </tr>
+        <tr>
+          <th scope="row">10</th>
+          <td>Esme Shelby</td>
+          <td>rebelEsme@gmail.com</td>
+          <td>Chelsea</td>
+          <td id="7081">30000</td>
+          <td>7081 </td>
+        </tr>
+      </tbody>
+    </table>
+    <script>
+  AOS.init({
+    duration: 700,
+
+  });
+</script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js"></script>
+  </body>
+</html>

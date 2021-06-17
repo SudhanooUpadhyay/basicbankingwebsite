@@ -1,0 +1,156 @@
+
+
+h2{
+  font-family: fantasy;
+  color: antiquewhite;
+  padding-top:  5%;
+}
+
+h1{
+  font-weight: bolder;
+  font-size: 3.5rem;
+  padding: 2% 0% 5% 0%;;
+}
+h4{
+  font-weight: normal;
+}
+h3{
+  font-weight: lighter;
+}
+
+.company{
+margin: auto;
+}
+  .container-fluid{
+    padding: 3% 15%;
+}
+
+.navbar-brand
+{
+
+   font-size: 25px !important;
+   font-family: "Montserrat";
+}
+
+.navbar-nav {
+           margin: auto;
+       }
+.nav-item
+{
+   padding: 0 60px;
+}
+
+.nav-link
+{
+   font-family: "Montserrat";
+   font-size: 1.4rem;
+}
+
+.navbar
+{
+   padding:0 0 1rem;
+}
+
+.home{
+   position: relative;
+}
+body{
+   background-image: url('./sudhanshoo2.jpg');
+}
+
+#dropdownMenuButton{
+   background-color: #212529;
+   border: none;
+}
+
+.transferbtn{
+   font-weight: bold;
+   background: transparent;
+   width: 100%;
+   text-transform: uppercase;
+   border-radius: 15px;
+   font-size: 1rem;
+   padding: 10px 16px;
+   cursor: pointer;
+   transition-duration: 0.1s;
+   transition-timing-function: ease-in-out;
+   margin: auto;
+   border: none;
+   box-shadow: 3px 3px;
+   color: orange;
+   background-color: rgba(71, 75, 79, 0.6);
+}
+
+.transferbtn:hover{
+  font-weight: bold;
+  background: transparent;
+  width: 100%;
+  text-transform: uppercase;
+  border-radius: 15px;
+  font-size: 1rem;
+  padding: 10px 16px;
+  cursor: pointer;
+  transition-duration: 0.1s;
+  transition-timing-function: ease-in-out;
+  margin: auto;
+  border: none;
+  box-shadow: 3px 3px;
+  color: #474b4f;
+  background-color: rgba(245, 181, 7, 0.6);
+}
+
+#home{
+
+   font-weight: bolder;
+   text-align: center;
+   color: antiquewhite;
+}
+
+.heading{
+   font-weight: bolder;
+   margin: auto;
+   padding: 7%;
+   font-size: 4rem;
+}
+
+.table{
+   background: transparent;
+   color: orange;
+   font-weight: bold;
+   font-size: larger;
+   background-color: rgba(0, 0, 0, 0.7);
+}
+
+#updateHistory{
+   width: 280px;
+   font-weight: 500;
+   background-image: url(sudhanshoo2.jpg);
+   color: orange;
+   font-weight: bolder;
+   font-size: 1rem;
+   margin-right: 20px;
+   padding: 3px 5px;
+}
+
+.button{
+  background-color: antiquewhite;
+  color: #474b4f;
+  border-radius: 15px;
+  padding: 3%;
+  font-size: 1rem;
+  font-weight: bolder;
+}
+
+#footer{
+  padding: 3% 7%;
+  text-align: center;
+  font-size: 3rem;
+}
+ #footer a{
+   padding: 3%;
+   background-color: rgba(255,255,255,0.3);
+   color: #474b4f;
+ }
+#footer a:hover{
+  color: black;
+}
